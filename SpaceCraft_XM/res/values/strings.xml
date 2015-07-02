@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpaceCraft_X</string>
+    <string name="prefs_label">Preferencias</string> 
+    <string name="prefs_title">SpaceCraft settings</string> 
+    <string name="prefs_shortcut">Prefs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Menu_novoJogo">Novo Jogo</string>
+    <string name="ajuda_titulo">Ajuda</string>
+    <string name="ajuda_texto">O SpaceCraft e um jogo arcade em que tem como objectivo a deslocação da nave de maneira a evitar os asteroides. De maneira a atingir a maior distancia e apanhando o maior numero de moedas possivel. Podes voltar a ganhar mais vidas, apanhando as caixas que vao caindo.</string>
+    <string name="music_title">Musica</string>
+    <string name="music_summary">Musica Ligados ou Desligados</string>
+    <string name="spacecraft_title">Naves</string>
+    <string name="spacecraft_summary">Escolha a nave a jogar</string>
+    <string-array name="spacecraft_entries">
+		<item>Nave 1</item>
+	    <item>Nave 2</item>
+	    <item>Nave 3</item>
+	</string-array>
+    <string-array name="syncSpacecraftValues">
+    	<item>Nave 1</item>
+	    <item>Nave 2</item>
+	    <item>Nave 3</item>    
+    </string-array>
+    <string name="sensor_title">Sensores</string>
+    <string name="sensor_summary">Sensores Ligados ou Desligados</string>
+    <string name="teclas_title">Botões</string>
+    <string name="teclas_summary">Botões Ligados ou Desligados</string>
+</resources>

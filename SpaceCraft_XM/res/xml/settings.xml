@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android= "http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+        android:key="music" 
+        android:title="@string/music_title" 
+        android:summary="@string/music_summary" 
+        android:defaultValue="true" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:key="sensor" 
+        android:title="@string/sensor_title" 
+        android:summary="@string/sensor_summary" 
+        android:defaultValue="true" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:key="music" 
+        android:title="@string/teclas_title" 
+        android:summary="@string/teclas_summary" 
+        android:defaultValue="true">
+    </CheckBoxPreference>
+    <ListPreference
+        android:key="spacecraft" 
+        android:title="@string/spacecraft_title" 
+        android:summary="@string/spacecraft_summary" 
+        android:entries ="@array/spacecraft_entries"
+        android:entryValues="@array/syncSpacecraftValues"
+        android:defaultValue="Nave 1" >
+    </ListPreference>
+</PreferenceScreen>
